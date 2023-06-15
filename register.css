@@ -1,0 +1,98 @@
+.background-radial-gradient {
+    /* background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%); */
+
+        background: #ffd89b;
+        background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+        background: linear-gradient(to right, #ffd89b, #19547b);
+        min-height: 100vh;
+        transition: 10px;
+        
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient( #44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  #sub{
+    margin-left:70px ;
+  }
+  #re{
+    margin-left: 150px;
+  }
+  #re {
+    background-color: transparent;
+    border: 3px solid #ff0251;
+    color:white;
+    background-color: red;
+    transition: .3s;
+  }
+  #re:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+
+  #sub {
+    background-color: transparent;
+    border: 3px solid #07a238;
+    color:white;
+    background-color: green;
+    transition: .3s;
+  }
+  #sub:hover {
+    animation: sub 1s infinite;
+    transition: .3s;
+  }
+  @keyframes sub {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  

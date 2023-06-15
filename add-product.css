@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    
+}
+/* html{
+    font-size: 62.5%;
+
+} */
+body{
+    
+    background: #ffd89b;
+  background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+  background: linear-gradient(to right, #ffd89b, #19547b);
+  min-height: 100vh;
+  color:azure;
+}
+#upload_container{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#upload_container form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#upload_container form input{
+    padding: 8px;
+    outline: none;
+    /* border: 1px solid lightblue; */
+    margin-bottom: 8px;
+}
+#upload_container form button{
+    padding:8px;
+    outline: none;
+    /* background-color: lightblue; */
+    border: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+/* #upload_container form input[type="submit"]{
+    background-color: lightgray;
+    border: none;
+}
+#upload_container form input[type="submit"]:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid lightblue;
+} */
+
+#upload_container form input[type="submit"] {
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+  }
+  #upload_container form input[type="submit"]:hover {
+    box-shadow: 8px 8px #99bdff;
+    transition: .3s;
+  }
+  
